@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  user: postgres_user
+  password: postgres_pass
+  database: todo_DB_development
+  pool: 5
+  timeout: 5000
+  host: localhost
+test:
+  adapter: postgresql
+  user: postgres_user
+  password: postgres_pass
+  database: todo_DB_test
+  pool: 5
+  timeout: 5000
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: todo_DB_production
+  pool: 5
+  timeout: 5000
